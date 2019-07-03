@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/user_icon_2"
+        android:background="@color/link_text_light"
         android:gravity="center"
         android:text="音频控制"
         android:textColor="@color/white"
@@ -25,8 +25,8 @@
         <TextView
             android:layout_width="75dp"
             android:layout_height="40dp"
-            android:text="音频IP:"
             android:gravity="center"
+            android:text="音频IP:"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
@@ -44,8 +44,8 @@
             android:id="@+id/btn_connect"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:background="@drawable/btn_style"
             android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_style"
             android:text="连接"
             android:textColor="@color/white"
             android:textSize="18sp" />
@@ -181,7 +181,8 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center"
                 android:orientation="horizontal">
 
                 <TextView
@@ -192,19 +193,42 @@
                     android:textSize="20sp" />
 
 
+                <Button
+                    android:id="@+id/yl_sub_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_sub"
+                    android:text="音量 -"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
                 <SeekBar
                     android:id="@+id/seekBar_1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:layout_weight="1"
                     android:max="83"
                     android:min="0"
                     android:progress="0" />
 
+
+                <Button
+                    android:id="@+id/yl_add_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_add"
+                    android:text="音量 +"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
                 <CheckBox
                     android:id="@+id/checkBox_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:background="@drawable/yinpin_checked_status"
                     android:button="@null"
                     android:gravity="center" />
@@ -223,7 +247,8 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center"
                 android:orientation="horizontal">
 
                 <TextView
@@ -233,20 +258,41 @@
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
+                <Button
+                    android:id="@+id/yl_sub_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_sub"
+                    android:text="音量 -"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
 
                 <SeekBar
                     android:id="@+id/seekBar_2"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:layout_weight="1"
                     android:max="83"
                     android:min="0"
                     android:progress="0" />
 
+                <Button
+                    android:id="@+id/yl_add_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_add"
+                    android:text="音量 +"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
                 <CheckBox
                     android:id="@+id/checkBox_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:background="@drawable/yinpin_checked_status"
                     android:button="@null"
                     android:gravity="center" />
@@ -265,7 +311,8 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center"
                 android:orientation="horizontal">
 
                 <TextView
@@ -275,20 +322,41 @@
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
+                <Button
+                    android:id="@+id/yl_sub_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_sub"
+                    android:text="音量 -"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
 
                 <SeekBar
                     android:id="@+id/seekBar_3"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:layout_weight="1"
                     android:max="83"
                     android:min="0"
                     android:progress="0" />
 
+                <Button
+                    android:id="@+id/yl_add_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_add"
+                    android:text="音量 +"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
                 <CheckBox
                     android:id="@+id/checkBox_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:background="@drawable/yinpin_checked_status"
                     android:button="@null"
                     android:gravity="center" />
@@ -307,7 +375,8 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center"
                 android:orientation="horizontal">
 
                 <TextView
@@ -317,20 +386,41 @@
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
+                <Button
+                    android:id="@+id/yl_sub_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_sub"
+                    android:text="音量 -"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
 
                 <SeekBar
                     android:id="@+id/seekBar_4"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:layout_weight="1"
                     android:max="83"
                     android:min="0"
                     android:progress="0" />
 
+                <Button
+                    android:id="@+id/yl_add_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_add"
+                    android:text="音量 +"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
                 <CheckBox
                     android:id="@+id/checkBox_4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:background="@drawable/yinpin_checked_status"
                     android:button="@null"
                     android:gravity="center" />
@@ -349,7 +439,8 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center"
                 android:orientation="horizontal">
 
                 <TextView
@@ -359,20 +450,41 @@
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
+                <Button
+                    android:id="@+id/yl_sub_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_sub"
+                    android:text="音量 -"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
 
                 <SeekBar
                     android:id="@+id/seekBar_5"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:layout_weight="1"
                     android:max="83"
                     android:min="0"
                     android:progress="0" />
 
+                <Button
+                    android:id="@+id/yl_add_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_add"
+                    android:text="音量 +"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
                 <CheckBox
                     android:id="@+id/checkBox_5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:background="@drawable/yinpin_checked_status"
                     android:button="@null"
                     android:gravity="center" />
@@ -391,7 +503,8 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center"
                 android:orientation="horizontal">
 
                 <TextView
@@ -401,20 +514,41 @@
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
+                <Button
+                    android:id="@+id/yl_sub_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_sub"
+                    android:text="音量 -"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
 
                 <SeekBar
                     android:id="@+id/seekBar_6"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:layout_weight="1"
                     android:max="83"
                     android:min="0"
                     android:progress="0" />
 
+                <Button
+                    android:id="@+id/yl_add_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_add"
+                    android:text="音量 +"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
                 <CheckBox
                     android:id="@+id/checkBox_6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:background="@drawable/yinpin_checked_status"
                     android:button="@null"
                     android:gravity="center" />
@@ -433,7 +567,8 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center"
                 android:orientation="horizontal">
 
                 <TextView
@@ -443,20 +578,41 @@
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
+                <Button
+                    android:id="@+id/yl_sub_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_sub"
+                    android:text="音量 -"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
 
                 <SeekBar
                     android:id="@+id/seekBar_7"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:layout_weight="1"
                     android:max="83"
                     android:min="0"
                     android:progress="0" />
 
+                <Button
+                    android:id="@+id/yl_add_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_add"
+                    android:text="音量 +"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
                 <CheckBox
                     android:id="@+id/checkBox_7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:background="@drawable/yinpin_checked_status"
                     android:button="@null"
                     android:gravity="center" />
@@ -475,7 +631,8 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center"
                 android:orientation="horizontal">
 
                 <TextView
@@ -485,20 +642,41 @@
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
+                <Button
+                    android:id="@+id/yl_sub_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_sub"
+                    android:text="音量 -"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
 
                 <SeekBar
                     android:id="@+id/seekBar_8"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:layout_weight="1"
                     android:max="83"
                     android:min="0"
                     android:progress="0" />
 
+                <Button
+                    android:id="@+id/yl_add_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_add"
+                    android:text="音量 +"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
                 <CheckBox
                     android:id="@+id/checkBox_8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:background="@drawable/yinpin_checked_status"
                     android:button="@null"
                     android:gravity="center" />
@@ -517,7 +695,8 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center"
                 android:orientation="horizontal">
 
                 <TextView
@@ -527,20 +706,41 @@
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
+                <Button
+                    android:id="@+id/yl_sub_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_sub"
+                    android:text="音量 -"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
 
                 <SeekBar
                     android:id="@+id/seekBar_9"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:layout_weight="1"
                     android:max="83"
                     android:min="0"
                     android:progress="0" />
 
+                <Button
+                    android:id="@+id/yl_add_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_add"
+                    android:text="音量 +"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
                 <CheckBox
                     android:id="@+id/checkBox_9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:background="@drawable/yinpin_checked_status"
                     android:button="@null"
                     android:gravity="center" />
@@ -559,7 +759,8 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center"
                 android:orientation="horizontal">
 
                 <TextView
@@ -569,20 +770,41 @@
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
+                <Button
+                    android:id="@+id/yl_sub_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_sub"
+                    android:text="音量 -"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
 
                 <SeekBar
                     android:id="@+id/seekBar_10"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:layout_weight="1"
                     android:max="83"
                     android:min="0"
                     android:progress="0" />
 
+                <Button
+                    android:id="@+id/yl_add_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_add"
+                    android:text="音量 +"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
                 <CheckBox
                     android:id="@+id/checkBox_10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:background="@drawable/yinpin_checked_status"
                     android:button="@null"
                     android:gravity="center" />
@@ -601,7 +823,8 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center"
                 android:orientation="horizontal">
 
                 <TextView
@@ -611,20 +834,41 @@
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
+                <Button
+                    android:id="@+id/yl_sub_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_sub"
+                    android:text="音量 -"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
 
                 <SeekBar
                     android:id="@+id/seekBar_11"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:layout_weight="1"
                     android:max="83"
                     android:min="0"
                     android:progress="0" />
 
+                <Button
+                    android:id="@+id/yl_add_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_add"
+                    android:text="音量 +"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
                 <CheckBox
                     android:id="@+id/checkBox_11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:background="@drawable/yinpin_checked_status"
                     android:button="@null"
                     android:gravity="center" />
@@ -643,7 +887,8 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center"
                 android:orientation="horizontal">
 
                 <TextView
@@ -653,20 +898,41 @@
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
+                <Button
+                    android:id="@+id/yl_sub_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_sub"
+                    android:text="音量 -"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
 
                 <SeekBar
                     android:id="@+id/seekBar_12"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:layout_weight="1"
                     android:max="83"
                     android:min="0"
                     android:progress="0" />
 
+                <Button
+                    android:id="@+id/yl_add_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_add"
+                    android:text="音量 +"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
                 <CheckBox
                     android:id="@+id/checkBox_12"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:background="@drawable/yinpin_checked_status"
                     android:button="@null"
                     android:gravity="center" />
@@ -685,7 +951,8 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center"
                 android:orientation="horizontal">
 
                 <TextView
@@ -695,20 +962,41 @@
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
+                <Button
+                    android:id="@+id/yl_sub_13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_sub"
+                    android:text="音量 -"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
 
                 <SeekBar
                     android:id="@+id/seekBar_13"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:layout_weight="1"
                     android:max="83"
                     android:min="0"
                     android:progress="0" />
 
+                <Button
+                    android:id="@+id/yl_add_13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_add"
+                    android:text="音量 +"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
                 <CheckBox
                     android:id="@+id/checkBox_13"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:background="@drawable/yinpin_checked_status"
                     android:button="@null"
                     android:gravity="center" />
@@ -727,7 +1015,8 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center"
                 android:orientation="horizontal">
 
                 <TextView
@@ -737,20 +1026,41 @@
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
+                <Button
+                    android:id="@+id/yl_sub_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_sub"
+                    android:text="音量 -"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
 
                 <SeekBar
                     android:id="@+id/seekBar_14"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:layout_weight="1"
                     android:max="83"
                     android:min="0"
                     android:progress="0" />
 
+                <Button
+                    android:id="@+id/yl_add_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_add"
+                    android:text="音量 +"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
                 <CheckBox
                     android:id="@+id/checkBox_14"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:background="@drawable/yinpin_checked_status"
                     android:button="@null"
                     android:gravity="center" />
@@ -769,7 +1079,8 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center"
                 android:orientation="horizontal">
 
                 <TextView
@@ -779,20 +1090,41 @@
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
+                <Button
+                    android:id="@+id/yl_sub_15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_sub"
+                    android:text="音量 -"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
 
                 <SeekBar
                     android:id="@+id/seekBar_15"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:layout_weight="1"
                     android:max="83"
                     android:min="0"
                     android:progress="0" />
 
+                <Button
+                    android:id="@+id/yl_add_15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_add"
+                    android:text="音量 +"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
                 <CheckBox
                     android:id="@+id/checkBox_15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:background="@drawable/yinpin_checked_status"
                     android:button="@null"
                     android:gravity="center" />
@@ -811,7 +1143,8 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center"
                 android:orientation="horizontal">
 
                 <TextView
@@ -821,20 +1154,41 @@
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
+                <Button
+                    android:id="@+id/yl_sub_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_sub"
+                    android:text="音量 -"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
 
                 <SeekBar
                     android:id="@+id/seekBar_16"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:layout_weight="1"
                     android:max="83"
                     android:min="0"
                     android:progress="0" />
 
+                <Button
+                    android:id="@+id/yl_add_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_yl_add"
+                    android:text="音量 +"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
                 <CheckBox
                     android:id="@+id/checkBox_16"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:background="@drawable/yinpin_checked_status"
                     android:button="@null"
                     android:gravity="center" />

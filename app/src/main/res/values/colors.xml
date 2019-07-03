@@ -14,15 +14,17 @@
     <color name="link_text_dark">#5c5cff</color>
     <color name="link_text_light">#0000ee</color>
 
-    <!-- Default user icon colors -->
-    <color name="user_icon_1">#ff00bcd4</color><!-- cyan 500 -->
-    <color name="user_icon_2">#ff3f51b5</color><!-- indigo 500 -->
-    <color name="user_icon_3">#ff4285f4</color><!-- blue 500 -->
-    <color name="user_icon_4">#ffe91e63</color><!-- pink 500 -->
-    <color name="user_icon_5">#ff0f9d58</color><!-- green 500 -->
-    <color name="user_icon_6">#ff8bc34a</color><!-- light green 500 -->
-    <color name="user_icon_7">#ffff9800</color><!-- orange 500 -->
-    <color name="user_icon_8">#ffff5722</color><!-- deep orange 500 -->
+    <color name="bg_1">#ff85F810</color>
+    <color name="bg_2">#ff7FF20A</color>
+    <color name="bg_3">#ff77CB21</color>
+    <color name="bg_4">#ff64893D</color>
+    <color name="bg_5">#ff556D3C</color>
+
+    <color name="bg_6">#ffff5722</color>
+    <color name="bg_7">#ffFC3807</color>
+    <color name="bg_8">#ffD9431D</color>
+    <color name="bg_9">#ffB3492F</color>
+    <color name="bg_10">#ff9A4B38</color>
 
 
     <color name="btn_1">#ff2a56c6</color>

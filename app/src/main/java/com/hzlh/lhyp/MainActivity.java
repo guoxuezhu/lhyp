@@ -633,6 +633,231 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    @OnClick(R.id.yl_sub_1)
+    public void yl_sub_1() {
+        if (seekBar_1.getProgress() != 0) {
+            sendMsg("SetL1 " + 1 + ":" + (seekBar_1.getProgress() - 72) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_sub_2)
+    public void yl_sub_2() {
+        if (seekBar_2.getProgress() != 0) {
+            sendMsg("SetL1 " + 2 + ":" + (seekBar_2.getProgress() - 72) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_sub_3)
+    public void yl_sub_3() {
+        if (seekBar_3.getProgress() != 0) {
+            sendMsg("SetL1 " + 3 + ":" + (seekBar_3.getProgress() - 72) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_sub_4)
+    public void yl_sub_4() {
+        if (seekBar_4.getProgress() != 0) {
+            sendMsg("SetL1 " + 4 + ":" + (seekBar_4.getProgress() - 72) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_sub_5)
+    public void yl_sub_5() {
+        if (seekBar_5.getProgress() != 0) {
+            sendMsg("SetL1 " + 5 + ":" + (seekBar_5.getProgress() - 72) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_sub_6)
+    public void yl_sub_6() {
+        if (seekBar_6.getProgress() != 0) {
+            sendMsg("SetL1 " + 6 + ":" + (seekBar_6.getProgress() - 72) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_sub_7)
+    public void yl_sub_7() {
+        if (seekBar_7.getProgress() != 0) {
+            sendMsg("SetL1 " + 7 + ":" + (seekBar_7.getProgress() - 72) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_sub_8)
+    public void yl_sub_8() {
+        if (seekBar_8.getProgress() != 0) {
+            sendMsg("SetL1 " + 8 + ":" + (seekBar_8.getProgress() - 72) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_sub_9)
+    public void yl_sub_9() {
+        if (seekBar_9.getProgress() != 0) {
+            sendMsg("SetL1 " + 9 + ":" + (seekBar_9.getProgress() - 72) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_sub_10)
+    public void yl_sub_10() {
+        if (seekBar_10.getProgress() != 0) {
+            sendMsg("SetL1 " + 10 + ":" + (seekBar_10.getProgress() - 72) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_sub_11)
+    public void yl_sub_11() {
+        if (seekBar_11.getProgress() != 0) {
+            sendMsg("SetL1 " + 11 + ":" + (seekBar_11.getProgress() - 72) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_sub_12)
+    public void yl_sub_12() {
+        if (seekBar_12.getProgress() != 0) {
+            sendMsg("SetL1 " + 12 + ":" + (seekBar_12.getProgress() - 72) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_sub_13)
+    public void yl_sub_13() {
+        if (seekBar_13.getProgress() != 0) {
+            sendMsg("SetL1 " + 13 + ":" + (seekBar_13.getProgress() - 72) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_sub_14)
+    public void yl_sub_14() {
+        if (seekBar_14.getProgress() != 0) {
+            sendMsg("SetL1 " + 14 + ":" + (seekBar_14.getProgress() - 72) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_sub_15)
+    public void yl_sub_15() {
+        if (seekBar_15.getProgress() != 0) {
+            sendMsg("SetL1 " + 15 + ":" + (seekBar_15.getProgress() - 72) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_sub_16)
+    public void yl_sub_16() {
+        if (seekBar_16.getProgress() != 0) {
+            sendMsg("SetL1 " + 16 + ":" + (seekBar_16.getProgress() - 72) + "#");
+        }
+    }
+
+
+    @OnClick(R.id.yl_add_1)
+    public void yl_add_1() {
+        if (seekBar_1.getProgress() != 83) {
+            sendMsg("SetL1 " + 1 + ":" + (seekBar_1.getProgress() - 70) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_add_2)
+    public void yl_add_2() {
+        if (seekBar_2.getProgress() != 83) {
+            sendMsg("SetL1 " + 2 + ":" + (seekBar_2.getProgress() - 70) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_add_3)
+    public void yl_add_3() {
+        if (seekBar_3.getProgress() != 83) {
+            sendMsg("SetL1 " + 3 + ":" + (seekBar_3.getProgress() - 70) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_add_4)
+    public void yl_add_4() {
+        if (seekBar_4.getProgress() != 83) {
+            sendMsg("SetL1 " + 4 + ":" + (seekBar_4.getProgress() - 70) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_add_5)
+    public void yl_add_5() {
+        if (seekBar_5.getProgress() != 83) {
+            sendMsg("SetL1 " + 5 + ":" + (seekBar_5.getProgress() - 70) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_add_6)
+    public void yl_add_6() {
+        if (seekBar_6.getProgress() != 83) {
+            sendMsg("SetL1 " + 6 + ":" + (seekBar_6.getProgress() - 70) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_add_7)
+    public void yl_add_7() {
+        if (seekBar_7.getProgress() != 83) {
+            sendMsg("SetL1 " + 7 + ":" + (seekBar_7.getProgress() - 70) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_add_8)
+    public void yl_add_8() {
+        if (seekBar_8.getProgress() != 83) {
+            sendMsg("SetL1 " + 8 + ":" + (seekBar_8.getProgress() - 70) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_add_9)
+    public void yl_add_9() {
+        if (seekBar_9.getProgress() != 83) {
+            sendMsg("SetL1 " + 9 + ":" + (seekBar_9.getProgress() - 70) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_add_10)
+    public void yl_add_10() {
+        if (seekBar_10.getProgress() != 83) {
+            sendMsg("SetL1 " + 10 + ":" + (seekBar_10.getProgress() - 70) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_add_11)
+    public void yl_add_11() {
+        if (seekBar_11.getProgress() != 83) {
+            sendMsg("SetL1 " + 11 + ":" + (seekBar_11.getProgress() - 70) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_add_12)
+    public void yl_add_12() {
+        if (seekBar_12.getProgress() != 83) {
+            sendMsg("SetL1 " + 12 + ":" + (seekBar_12.getProgress() - 70) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_add_13)
+    public void yl_add_13() {
+        if (seekBar_13.getProgress() != 83) {
+            sendMsg("SetL1 " + 13 + ":" + (seekBar_13.getProgress() - 70) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_add_14)
+    public void yl_add_14() {
+        if (seekBar_14.getProgress() != 83) {
+            sendMsg("SetL1 " + 14 + ":" + (seekBar_14.getProgress() - 70) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_add_15)
+    public void yl_add_15() {
+        if (seekBar_15.getProgress() != 83) {
+            sendMsg("SetL1 " + 15 + ":" + (seekBar_15.getProgress() - 70) + "#");
+        }
+    }
+
+    @OnClick(R.id.yl_add_16)
+    public void yl_add_16() {
+        if (seekBar_16.getProgress() != 83) {
+            sendMsg("SetL1 " + 16 + ":" + (seekBar_16.getProgress() - 70) + "#");
+        }
+    }
+
 
 //    @OnClick(R.id.btn_send1)
 //    public void btn_send1() {

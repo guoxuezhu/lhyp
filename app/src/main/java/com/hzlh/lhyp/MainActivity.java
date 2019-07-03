@@ -946,7 +946,7 @@ public class MainActivity extends AppCompatActivity {
         try {
             socket.getOutputStream().write(data.getBytes());
             socket.getOutputStream().flush();
-            makeToast("发送数据成功");
+//            makeToast("发送数据成功");
         } catch (IOException e) {
             makeToast("发送数据IOException");
             e.printStackTrace();

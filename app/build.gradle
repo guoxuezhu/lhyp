@@ -1,6 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        release {
+            keyAlias 'lhyp'
+            keyPassword 'lihonglhyp'
+            storeFile file('../key/lhyp.jks')
+            storePassword 'lhyplihong'
+        }
+    }
+
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.hzlh.lhyp"
@@ -10,10 +19,24 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+
     buildTypes {
         release {
             minifyEnabled false
+            buildConfigField 'boolean', 'JAVA_LOG_ENABLED', 'true'
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+
+        debug {
+            buildConfigField 'boolean', 'JAVA_LOG_ENABLED', 'true'
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "音频控制-${variant.name}-${variant.versionName}.apk"
         }
     }
 }

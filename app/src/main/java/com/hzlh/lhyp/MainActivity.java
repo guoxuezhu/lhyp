@@ -7,6 +7,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -391,7 +392,7 @@ public class MainActivity extends AppCompatActivity {
                 super.run();
                 try {
                     socket = new Socket(et_yinpin_ip.getText().toString(), 1698);
-//                    makeToast("客户端连接成功");
+                    makeToast("客户端连接成功");
                     timersend();
                     Log.i("==tcp===", "==========客户端连接成功===========" + socket.toString());
                     InputStream inputStream = socket.getInputStream();
@@ -450,7 +451,7 @@ public class MainActivity extends AppCompatActivity {
                     inputStream.close();
                 } catch (IOException e) {
                     Log.i("============", "==========eeeeeeeeee===========");
-                    makeToast("客户端连接IOException");
+                    makeToast("客户端连接失败");
                     e.printStackTrace();
                 }
 
@@ -633,87 +634,87 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    @OnClick(R.id.btn_send1)
-    public void btn_send1() {
-//        tv_msg.setText("");
-    }
-
-    @OnClick(R.id.btn_send2)
-    public void btn_send2() {
-        //   SYM 0#   L1_Mute 1#   L1_UnMute 1#        L1_add1#   L1_sub1#
-        sendMsg("L1_Mute 1#");
-    }
-
-    @OnClick(R.id.btn_send3)
-    public void btn_send3() {
-        sendMsg("L1_UnMute 1#");
-    }
-
-    @OnClick(R.id.btn_send4)
-    public void btn_send4() {
-        sendMsg("SYM 1#");
-    }
-
-    @OnClick(R.id.btn_send5)
-    public void btn_send5() {
-        sendMsg("SYM 0#");
-    }
-
-    @OnClick(R.id.btn_send6)
-    public void btn_send6() {
-        sendMsg("L1_add 1#");
-    }
-
-    @OnClick(R.id.btn_send7)
-    public void btn_send7() {
-        sendMsg("L1_sub 1#");
-    }
-
-    @OnClick(R.id.btn_send10)
-    public void btn_send10() {
-        sendMsg("Read_TotalTime#");
-    }
-
-    @OnClick(R.id.btn_send11)
-    public void btn_send11() {
-        sendMsg("ReadP#");
-    }
-
-    @OnClick(R.id.btn_send12)
-    public void btn_send12() {
-//        sendMsg("LOADP 1#");
-    }
-
-    @OnClick(R.id.btn_send13)
-    public void btn_send13() {
-        sendMsg("ReadL1 1#");
-    }
-
-    @OnClick(R.id.btn_send14)
-    public void btn_send14() {
-        sendMsg("SetL1 1:-20#");
-    }
-
-    @OnClick(R.id.btn_send15)
-    public void btn_send15() {
-        sendMsg("ReadL1 Mute#");
-    }
-
-    @OnClick(R.id.btn_send16)
-    public void btn_send16() {
-        sendMsg("ReadL2 Mute#");
-    }
-
-    @OnClick(R.id.btn_send17)
-    public void btn_send17() {
-        sendMsg("PSW_Reset#");
-    }
-
+//    @OnClick(R.id.btn_send1)
+//    public void btn_send1() {
+////        tv_msg.setText("");
+//    }
+//
+//    @OnClick(R.id.btn_send2)
+//    public void btn_send2() {
+//        //   SYM 0#   L1_Mute 1#   L1_UnMute 1#        L1_add1#   L1_sub1#
+//        sendMsg("L1_Mute 1#");
+//    }
+//
+//    @OnClick(R.id.btn_send3)
+//    public void btn_send3() {
+//        sendMsg("L1_UnMute 1#");
+//    }
+//
+//    @OnClick(R.id.btn_send4)
+//    public void btn_send4() {
+//        sendMsg("SYM 1#");
+//    }
+//
+//    @OnClick(R.id.btn_send5)
+//    public void btn_send5() {
+//        sendMsg("SYM 0#");
+//    }
+//
+//    @OnClick(R.id.btn_send6)
+//    public void btn_send6() {
+//        sendMsg("L1_add 1#");
+//    }
+//
+//    @OnClick(R.id.btn_send7)
+//    public void btn_send7() {
+//        sendMsg("L1_sub 1#");
+//    }
+//
+//    @OnClick(R.id.btn_send10)
+//    public void btn_send10() {
+//        sendMsg("Read_TotalTime#");
+//    }
+//
+//    @OnClick(R.id.btn_send11)
+//    public void btn_send11() {
+//        sendMsg("ReadP#");
+//    }
+//
+//    @OnClick(R.id.btn_send12)
+//    public void btn_send12() {
+////        sendMsg("LOADP 1#");
+//    }
+//
+//    @OnClick(R.id.btn_send13)
+//    public void btn_send13() {
+//        sendMsg("ReadL1 1#");
+//    }
+//
+//    @OnClick(R.id.btn_send14)
+//    public void btn_send14() {
+//        sendMsg("SetL1 1:-20#");
+//    }
+//
+//    @OnClick(R.id.btn_send15)
+//    public void btn_send15() {
+//        sendMsg("ReadL1 Mute#");
+//    }
+//
+//    @OnClick(R.id.btn_send16)
+//    public void btn_send16() {
+//        sendMsg("ReadL2 Mute#");
+//    }
+//
+//    @OnClick(R.id.btn_send17)
+//    public void btn_send17() {
+//        sendMsg("PSW_Reset#");
+//    }
+//
 
     private void sendMsg(String data) {
         Log.i("=====", "======data=====" + data);
         if (socket == null) {
-            makeToast("请连接");
+            makeToast("请先连接设备");
             return;
         }
         //   SYM 0#   L1_Mute 1#   L1_UnMute 1#        L1_add1#   L1_sub1#
@@ -731,8 +732,7 @@ public class MainActivity extends AppCompatActivity {
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
-//                Toast.makeText(MainActivity.this, msg, Toast.LENGTH_LONG).show();
-//                tv_msg.setText(tv_msg.getText().toString() + "\n" + msg);
+                Toast.makeText(MainActivity.this, msg, Toast.LENGTH_LONG).show();
             }
         });
     }

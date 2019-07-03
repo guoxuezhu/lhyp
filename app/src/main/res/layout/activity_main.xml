@@ -24,15 +24,16 @@
 
         <TextView
             android:layout_width="75dp"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:text="音频IP:"
+            android:gravity="center"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
         <EditText
             android:id="@+id/et_yinpin_ip"
             android:layout_width="180dp"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:background="@drawable/layout_et_bg"
             android:digits="0123456789."
             android:inputType="number"
@@ -55,7 +56,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:visibility="visible">
+        android:visibility="gone">
 
         <Button
             android:layout_width="wrap_content"
@@ -119,7 +120,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:visibility="visible">
+        android:visibility="gone">
 
         <Button
             android:id="@+id/btn_send10"
